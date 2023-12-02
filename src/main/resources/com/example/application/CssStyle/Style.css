@@ -1,0 +1,73 @@
+.backgroundColor {
+    -fx-background-color: white;
+}
+
+.searchTextField {
+    -fx-background-color: #e6e6e6;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+}
+
+.searchRectangle {
+    -fx-border-radius: 20;
+    -fx-background-color: gray;
+}
+
+.onMouseEnteredRectangle:hover {
+    -fx-background-color: #e6e6e6;
+    -fx-background-radius: 15;
+}
+
+.onMouseEnteredCircle1:hover {
+    -fx-background-color: #e6e6e6;
+    -fx-background-radius: 20;
+}
+
+.onMouseEnteredCircle2:hover {
+    -fx-background-color: #e6e6e6;
+    -fx-background-radius: 25;
+}
+
+.pressed:pressed {
+    -fx-background-color: #cccccc;
+}
+
+.singleLeftMessages {
+    -fx-background-color: #e6e6e6;
+    -fx-background-radius: 15;
+}
+
+.topleftMessages {
+    -fx-background-color: #e6e6e6;
+    -fx-background-radius: 15 15 15 3;
+}
+
+.centerleftMessages {
+    -fx-background-color: #e6e6e6;
+    -fx-background-radius: 3 15 15 3;
+}
+
+.bottomleftMessages {
+    -fx-background-color: #e6e6e6;
+    -fx-background-radius: 3 15 15 15;
+}
+
+.singlerightMessages {
+    -fx-background-color: #f16d00;
+    -fx-background-radius: 15;
+}
+
+.toprightMessages {
+    -fx-background-color: #f16d00;
+    -fx-background-radius: 15 15 3 15;
+}
+
+.centerrightMessages {
+    -fx-background-color: #f16d00;
+    -fx-background-radius: 15 3 3 15;
+}
+
+.bottomrightMessages {
+    -fx-background-color: #f16d00;
+    -fx-background-radius: 15 3 15 15;
+}
